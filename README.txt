@@ -8,4 +8,6 @@ With that in mind, simply run `watchntouch` in the directory you'd like to watch
 
 Installation on most platforms should be available via `pip install watchntouch`.
 
+Installation on Ubuntu may require `sudo apt-get install python-pip pythion-dev build-essential` `sudo pip2.7 install PyAML` `sudo pip2.7 install pathtools` `sudo pip2.7 install argh==0.8.1` and then `sudo pip2.7 install watchntouch`. watchntouch doesn't pick up the latest versions of argh hence the version specification for that package.
+
 Good luck!
